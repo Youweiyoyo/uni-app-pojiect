@@ -5,10 +5,18 @@
     "pages/cart/cart",
     "pages/my/my"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goods_detail/goods_detail",
+        "goods_list/goods_list"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "优购商城123",
+    "navigationBarTitleText": "优购商城",
     "navigationBarBackgroundColor": "#c00000",
     "backgroundColor": "#007AFF"
   },
